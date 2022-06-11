@@ -1,0 +1,21 @@
+;; Change sequence:
+;; ld h, XX
+;; ld d, h
+
+;; into:
+
+;; ld d, XX
+
+;; if it's used for an 8 bit multiplication (mul d, e)
+
+OLEVEL: 1
+OFLAG: 1
+
+REPLACE {{
+ ld de, $1
+ add hl,de 
+}}
+
+WITH {{
+ add hl,$1 
+}}

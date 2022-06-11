@@ -1,0 +1,446 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "timer.asm",
+			"settings":
+			{
+				"buffer_size": 1432,
+				"encoding": "Cyrillic (Windows 1251)",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "timer.sna.map",
+			"settings":
+			{
+				"buffer_size": 383,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "a.bat",
+			"settings":
+			{
+				"buffer_size": 144,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/z80asm/z80asm.sublime-build",
+					""
+				],
+				[
+					"Packages/z80asm/z80asm.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/z80asm/z80asm.sublime-build",
+					"Build and Run"
+				]
+			],
+			[
+				"Packages/z80asm/z80asm.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/source/ZXSpectrum/Demo/z80Timers"
+	],
+	"file_history":
+	[
+	],
+	"find":
+	{
+		"height": 53.0
+	},
+	"find_in_files":
+	{
+		"height": 143.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" 01 ",
+			" 02 ",
+			"ULASPRITES",
+			"0",
+			"WEAPONSPRITES",
+			"nextreg",
+			"HWSPRITE_SEG",
+			"CopyLayer2",
+			"*2",
+			"123b",
+			"Temp",
+			"Player_Bank",
+			";\n",
+			"DMALen",
+			"DMACopy",
+			"ClearFalling",
+			"PlotLevelPixel",
+			"Foreground",
+			"Load256",
+			"\t\n",
+			"$00",
+			"Palette",
+			"sprites",
+			"UploadSprites",
+			"/*@this {yyCommandBuilder} */",
+			"/*",
+			"/*@this {yyGamepadManager} */",
+			"/*@this {yyGamePad} */",
+			"/*@this {yyVBufferBuilder} */",
+			"\\n\\n",
+			"\\/\\/.*",
+			"\\n\\n",
+			"\\/\\/.*",
+			"/*@this {yyVertexFormat} */",
+			"/*@constructor */",
+			"/*@this {yyTextureSamplerState} */",
+			"/*@this {yyVBufferManager} */",
+			"/*@this {yyVBuffer} */",
+			"/*@this {yyPhysicsDebugDraw} */",
+			"/*@this{.}* */",
+			"/*@this {yyPhysicsDebugDraw} */",
+			"/*@this {yyVBufferManager} */",
+			"/*@this {yyVBuffer} */",
+			"/*@this {yyTextureSamplerState} */",
+			"/*@this {yyVertexFormat} */",
+			"/*@constructor */",
+			"/*@this {yyCommandBuilder} */",
+			"/*@this {yyWebGL} */",
+			"//",
+			"12345678",
+			"EAPPASSWORD",
+			"#include",
+			"vkApplicationInfo",
+			"fill",
+			"NextRegRead",
+			"dma",
+			"(fps)",
+			"fps",
+			"USE_COPPER",
+			"nuke",
+			"ScrollIndex",
+			"drawlemming",
+			"drawlemmingframe",
+			"drawlemming",
+			"LoadBank",
+			"ResetLevel",
+			"InitLemmings",
+			"SetupLevelObjects",
+			"StyleBank",
+			"style2dat",
+			"ResetLevel",
+			"DrawLemming",
+			"DrawLemmingFrame",
+			"DrawCounter",
+			"DrawLemmingFrame",
+			"DrawLemming",
+			"DrawLemmingFrame",
+			"drawlemmingframer",
+			"DrawLemming",
+			"drawlemming",
+			"a,l",
+			"bomber",
+			"LemFrameBase",
+			"calllemming",
+			"ClearNukeFlag",
+			"ld",
+			"PanelSelection",
+			"AnimFrame",
+			"ClearBoblevel",
+			"SetStateBomber",
+			"processlemprebomber",
+			"processlempre",
+			"SetStatePreBomber",
+			"prebomber",
+			"ProcessLemPreBomber",
+			"LEM_PREBOMBER",
+			"prebomb",
+			"prebomber",
+			"SetState",
+			"prebomber",
+			"ProcessLemPreBomber",
+			"SetStatePreBomber",
+			"ProcessLemPreBomber",
+			"PREBOmber",
+			"LEM_BOMBER",
+			"SetStateBomber",
+			"Bomber",
+			"ProcessLemPreBomber",
+			"ProcessLemBomber",
+			"priocesslemsplatter",
+			"skillmask",
+			"digger",
+			"DrawBoblevel",
+			"@CurrentSkillmask",
+			"BomberMask",
+			"ProcessLemDigger",
+			"processlemdigger",
+			"LemBombCounter",
+			"1",
+			"0",
+			"LevelBitmapBank",
+			"Screen2Bank",
+			"drawlemming",
+			"faller",
+			"sprite_x",
+			"SetSprites",
+			"TrapDoorlistCurrent",
+			"TrapDoorStartDelay"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$E3",
+			"$EA",
+			"",
+			"0",
+			"2",
+			"2\n",
+			"\t\tdb\t\t1,1,1,1,1,1,1,1,1\n\t\tdb\t\t1,1,1,1,1,1,1,1,1\n\t\tdb\t\t1,1,1,1,1,1,1,1,1\n",
+			"\t\tdb\t\t1,1,1,1,1,1,1,1,1\n\t\tdb\t\t1,1,1,1,1,1,1,1,1\n\t\tdb\t\t1,1,1,1,1,1,1,1,1",
+			"db",
+			"SpriteReg",
+			"($57)",
+			"ldi",
+			"$",
+			"db",
+			"1",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "timer.asm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								211
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/z80asm/z80asm.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "timer.sna.map",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								85
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "a.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 144.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "timer.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 147.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
