@@ -1,2 +1,10 @@
 # NextBuildPro
  Pro version of NextBuild enabling modules
+
+This is the pre beta release
+
+Note it uses a custom version of zxbasic
+
+Please ensure you have installed python on your system required for tk library.
+
+More demos to come
