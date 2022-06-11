@@ -1,7 +1,10 @@
 # NextBuildPro
+
  Pro version of NextBuild enabling modules
 
-This is the pre beta release
+
+
+This is the pre beta release - very rough around the edges! 
 
 Note it uses a custom version of zxbasic
 
