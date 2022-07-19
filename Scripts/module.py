@@ -155,12 +155,13 @@ def RunLastNext(e):
 
     p = subprocess.call(cmd, shell=True)
 
-
 if __name__ == '__main__':
+    
     a = Widget1(0)
     center(a.w1)
     a.w1.bind("<Escape>", Quit)
     a.w1.bind("<F5>", Widget1.BuildModule)
+    a.w1.bind("<Return>", Widget1.BuildModule)
     a.w1.bind("<F6>", Widget1.BuildAll)
     a.w1.bind("<F7>", RunLastNext)
     a.w1.iconphoto(False, tkinter.PhotoImage(file=BASE_DIR+'\\Scripts\\imgs\\nextbuild.png'))

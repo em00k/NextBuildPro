@@ -1,0 +1,5 @@
+{
+    "key": "F6",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Compile ZXbasic"
+  }

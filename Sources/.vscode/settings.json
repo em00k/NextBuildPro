@@ -14,5 +14,12 @@
     "keywords": "#f1db14",
     "functions": "#13ad34"
   },
-  "cSpell.enabled": true,
+
+  "marksToOutline.mark": "sub ", // Keyword to look for
+  "marksToOutline.availableLanguages": "nextbuild", // * | comma-separated list of language ids
+  "marksToOutline.highlightMarks": true, // should highlight lines or not
+  "marksToOutline.darkColor": "hsla(0, 100%, 100%, 0.07)", // higlight color for dark themes
+  "marksToOutline.lightColor": "hsla(0, 0%, 0%, 0.07)" // highlight color for light themes
+
+}
 

@@ -6,6 +6,7 @@
         {
             "label": "Compile ZXbasic",
             "type": "shell",
+            "runOptions": {"instanceLimit": 10},
             "command": "python3",
             "args": [
                 "./../Scripts/nextbuild.py",
@@ -15,29 +16,34 @@
             ],
             "windows": {
                 "command": "py",
+
                 "args": [
-                    // "./../Scripts/nextbuild.py",
-                    // "-b",
-                    // "${file}",
-                    // "-s",
-                    "./../Scripts/module.py",
-                    "${file}"
+                    "./../Scripts/nextbuild.py",
+                    "-b",
+                    "${file}",
+                    "-s",
+                    //"./../Scripts/module.py",
+                    //"${file}"
                 ]
             },
             "presentation": {
                 "echo": true,
                 "reveal": "always",
+                "revealProblems": "onProblem",
                 "panel": "shared",
                 "showReuseMessage": false,
                 "clear": true
+
             },            
             "group": {
                 "kind": "build",
                 "isDefault": true
+
             },
             "problemMatcher": {
+                "owner": "nextbuild",
                 "fileLocation": [
-                    "absolute"
+                    "absolute"                    
                 ],
                 "pattern": {
                     "regexp": "^(.*):(\\d+):\\s+(warning|error):\\s+(.*)$",
@@ -45,6 +51,7 @@
                     "line": 2,
                     "severity": 3,
                     "message": 4
+
                 }
             }
         },
@@ -58,7 +65,7 @@
             ],
             "group": {
                 "kind": "test",
-                "isDefault": true
+
             },
             "windows": {
                 //"command": "./../zxbasic/python/python.exe",
@@ -76,6 +83,7 @@
                 "clear": true
             },
             "problemMatcher": {
+                "owner": "nextbuild",
                 "fileLocation": [
                     "absolute"
                 ],
@@ -107,7 +115,7 @@
                 "reveal": "always",
                 "panel": "shared",
                 "showReuseMessage": false,
-                "clear": false
+                "clear": true
             }
         },
         {
@@ -126,7 +134,7 @@
                 "reveal": "always",
                 "panel": "shared",
                 "showReuseMessage": false,
-                "clear": false
+                "clear": true
             }
         },
         

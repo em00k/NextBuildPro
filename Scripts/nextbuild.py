@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# v8.0 NextBuild / NextLib by David Saphier (c) 2021 / em00k 15-Feb-2022
+# v7.9 NextBuild / NextLib by David Saphier (c) 2021 / em00k 15-Feb-2022
 # ZX Basic Compiler by (c) Jose Rodriguez
 # Thanks to Jari Komppa for help with the cfg parser 
 # Extra thanks to Jose for help integrating into the zxb python modules and nextcreator.py 
@@ -103,6 +103,15 @@ filename_extension = head_tail[1]
 filename_path = head_tail[0]
 
 # procs 
+
+def CheckForBasic():
+    # was ther file a .bas?
+    testfname = head_tail[1].split('.')[1-2]
+    if testfname == 'bas':
+        print("basic file")
+    else:
+        print('Not a basic file')
+        sys.exit(1)    
 
 def GenerateLoader():
 
@@ -486,6 +495,10 @@ def ParseDirectives():
     except:
         print("Uknown error opening source file")
         raise 
+    if args.singlefile == 1:         # true 
+        module = 0 
+        master = filenamenoext+'.NEX'
+
     if makebin == 1: 
         if nextzxos == 0:
             print('Can only use !bin with !nextzxos')
@@ -665,19 +678,20 @@ def CopyToDestination():
 
 def AnythingToRun():
 
-        print(args.modules)
+        # print(args.modules)
 
         if args.modules == True:
             print("This is a module skipping CreateNEXFile()")
             return 
-        print(master)
+
         if master != '':
-            print(master)
+          #  print(master)
             cmd = BASE_DIR+'/Emu/Cspect/Cspect.exe -w3 -16bit -brk -tv -vsync -nextrom -map='+head_tail[0]+'/'+filenamenoext+'.bas.map -zxnext -mmc='+head_tail[0]+'/data/ '+head_tail[0]+'/'+master
             p = subprocess.call(cmd, shell=True)
 
 #def main():
 # now scan the top 64 lines for any info on ORG/HEAP 
+CheckForBasic()
 
 ParseDirectives()
 

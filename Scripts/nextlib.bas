@@ -635,20 +635,22 @@ ASM
 	PROC 
 		LOCAL skip_wrap1, .no_wrap
 		; call 	_checkints
-		di
+		; di
+		; BREAK 	 
 		pop  	hl      ; save return address off stack 
+		; pop 	de 
 		ld   	e,a     ; put a into e
 		ld   	bc,LAYER2_ACCESS_PORT
 		pop  	af      ; pop stack into a = Y 
 		ld   	d,a     ; put into d
 		and  	$c0     ; yy00 0000
-		cp 		$c0
-		jr 		z,.skip_wrap1
-		jr 		.no_wrap
-		xor 	a
+	;	cp 		$c0
+	;	jr 		z,.skip_wrap1
+	;	jr 		.no_wrap
+	;	xor 	a
 	skip_wrap1:
-		pop 	af
-		jr 		skip_wrap2
+	;	pop 	af
+	;	jr 		skip_wrap2
 	.no_wrap:
 		ENDP 
 	end asm 
@@ -666,7 +668,7 @@ LayerShadow:
 		out  	(c),a   ; Layer2 writes off 
 		push 	hl      ; restore return address
 		; ReenableInts
-		ei
+		; ei
   END ASM 
 end sub    
 
