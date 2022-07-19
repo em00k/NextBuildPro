@@ -14,4 +14,4 @@ More demos to come
 
 Thanks as always to Jose for Boriel ZX Basic! 
 
-JSJ, ped7g, Mike Dailly, Flash, Baggers, Remy, Duefecto, D!
+JSJ, ped7g, Mike Dailly, Flash, Baggers, Remy, Duefectu, D!
