@@ -30,7 +30,9 @@ Remember that when we add a variable to in 1 for a byte or 2 for an integer. See
 
 Also inside Commmon.bas we include routines that we might want to use in all modules. I have attemped to remove the reliance on the ROM as much as possible as this allows us to use the maximum amount of ram. 
 
-Some replacement functions such as print Nstr(byte) is a replacement for STR() that uses the ROM calculator and can causing crashes when we're taking over ram completely. 
+Some replacement functions such as print Nstr(byte) is a replacement for STR() that uses the ROM calculator and can causing crashes when we're taking over ram completely.
+
+**EDIT : the above is no longer true as I now patch any ROM calls to ensure banks are in place. STR() VAL() PAUSE SIN COS **
 
 a = GetKey2() will return a key that has been pressed = if a is pressed a will = CODE "a" 
 
