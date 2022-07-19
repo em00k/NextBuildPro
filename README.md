@@ -1,4 +1,4 @@
-# NextBuildPro
+# NextBuildPro alpha 0.2 2022.07.20
 
  Pro version of NextBuild enabling modules
 
